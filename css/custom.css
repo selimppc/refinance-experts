@@ -1,0 +1,395 @@
+@font-face {
+    font-family: 'latolight';
+    src: url('../fonts/lato-light-webfont.eot');
+    src: url('../fonts/lato-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-light-webfont.woff2') format('woff2'),
+         url('../fonts/lato-light-webfont.woff') format('woff'),
+         url('../fonts/lato-light-webfont.ttf') format('truetype'),
+         url('../fonts/lato-light-webfont.svg#latolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latosemibold';
+    src: url('../fonts/lato-semibold-webfont.eot');
+    src: url('../fonts/lato-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/lato-semibold-webfont.woff') format('woff'),
+         url('../fonts/lato-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/lato-semibold-webfont.svg#latosemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {font-size:20px; color:#666;font-family: 'latolight', sans-serif;}
+h1 {}
+h2 {font-size:30px;color:#124d5b;font-family: 'Roboto', sans-serif;font-weight: 500;}
+h3 {font-size:22px;color:#124d5b;font-family: 'Roboto', sans-serif;font-weight: 500;}
+p {margin-bottom:30px;}
+strong, b {font-family: 'latosemibold', sans-serif;}
+
+.header { border-bottom: 3px solid #ee591f;}
+
+.confirmation {background-color:#143e48;margin-top:-20px;margin-bottom:20px;}
+.confirmation h2 {color:#fff;margin-bottom:20px;}
+
+.intro {padding:30px 0;}
+.intro img {margin-top:0;margin-bottom:20px;}
+.intro .call-back {margin:2em 0;}
+
+.banner{background:url('../images/014.jpg') no-repeat;background-size: cover;}
+
+.sign-up {background-color:#83171B; color:#fff;font-size:15px; min-height:586px;padding: 30px;}
+.sign-up h3 {font-size:16px;line-height:30px;color:#fff;padding-top:10px;margin-top:0;}
+.sign-up h3 em {font-style:normal;color:#f7a305;}
+.sign-up h3 strong {display:block;font-size:24px;font-weight:inherit;}
+.sign-up h3 sup {}
+.sign-up p {margin-bottom: 10px;}
+.sign-up label {font-weight:normal;color:#fff;}
+.sign-up .panel {margin-top:15px;margin-bottom:15px;}
+.sign-up .panel-heading {padding: 3px 15px;}
+.sign-up .panel-heading label {margin-bottom:0;}
+.sign-up button {width:100%;margin-top:0em;margin-bottom:10px;}
+.sign-up .form-group {margin-bottom: 5px;}
+.sign-up .help-block {margin-top: 5px;margin-bottom: 5px;}
+.sign-up .form-control {height: 36px;border:1px solid rgba(255,255,255,0.2);border-radius:0;background-color: transparent;}
+
+.call-us {background-color:#204852;padding:15px; margin:0 -15px 10px -15px;}
+.call-us a {line-height:25px;color:#143e48;display:inline-block;vertical-align:middle;font-size:20px;font-family:'latosemibold',sans-serif;background-color:#F7A305;padding:5px 10px 5px 5px;border-radius:5px;margin-left:10px;}
+.call-us a:hover, .call-us a:active {text-decoration:none;}
+.call-us a span {color:#fff;font-size:25px;display:inline-block;vertical-align:middle;margin:-5px 0 0 0;}
+.contactform .call-us {margin-top:-20px;margin-bottom:20px;}
+.no-border{
+    border:none !important;
+    box-shadow: none ;
+}
+
+.call-back {text-align:center;}
+
+#compare-results {}
+.loan_rate{
+    padding: 60px 0;
+    margin-top: 0 !important;
+}
+
+.loan_compare_wrap{
+    background-color:#f2f2f2;
+    padding: 60px 0;
+}
+.loan_compare_wrap h3, .loan_rate h3{
+    color: #83171B;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.loan_rate h3{
+    margin-bottom: 20px;
+}
+.loan_compare{
+    width: 100%;float: left;    margin-top: 20px;text-align: center;
+}
+.loan_compare img{
+    width: 40%;
+}
+.loan_compare .loan_compare_text{
+        background: rgba(20, 62, 72, .2);
+    padding: 10px 5px;
+    font-size: 16px;
+}
+.loan_compare .loan_compare_text p{
+    margin: 0;
+}
+
+.rate_smasher_container{
+    width: 100%;
+    float: left;
+    min-height: 170px;
+    margin-top: 30px;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 20px;
+}
+
+.rate_smasher_container .images{
+        width: 15%;
+    float: left;
+}
+
+.rate_smasher_container .images img{
+    width: 65%;
+}
+
+.rate_smasher_container .text{
+    width: 75%;
+    float: left;
+}
+
+.rate_smasher_container .text h4{
+    color: #83171B;
+    margin: 0px 0px 10px 0px;
+    font-size: 20px;
+}
+
+.rate_smasher_container .text p{
+    font-size: 16px;
+}
+
+.testimonial_container{
+    width: 100%;
+    float: left;
+    padding: 25px 25px 0px 25px;
+    font-size: 16px;
+}
+
+.testimonial{
+    background: #f2f2f2;
+}
+.testimonial_container .leftside{
+    width: 65%;
+    float: left;
+}
+
+.testimonial_container .leftside p{
+    padding: 0px 0px 25px 0px;
+    margin: 0;
+}
+
+.testimonial_container .leftside p.signature img{
+    width: 35%;
+}
+
+.testimonial_container .rightside{
+    width: 35%;float: left;text-align: right;
+}
+.testimonial_container .rightside img{
+    width: 50%;
+}
+
+.footer_container{
+    background: #EE591F;
+}
+
+.footer_container ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footer_container ul li{
+    list-style: none;
+    float: left;
+}
+
+.main-section{
+    min-height: 586px; 
+    text-align: center;   
+}
+
+.main-section h2{
+    font-size: 32px;
+    color: #83171B;
+    text-align: left;
+}
+
+
+.footer_container ul li a{
+        text-decoration: none;
+    float: left;
+    color: #fff;
+    font-size: 15px;
+    margin-right: 14px;
+    padding: 11px 5px;
+}
+.offersection{
+    text-align: left;
+    
+}
+
+.offersection h3{
+    color: #83171B;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.offersection ul{
+    padding: 0 0 0 21px;
+    list-style: circle;
+}
+
+.offersection ul li{
+
+}
+
+.offersection ul li a{
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    margin: 11px 0px 0px 0;
+}
+
+
+.top-five-list {font-size:22px;background-color:#f3f3f3;padding:30px;color:#124d5b;margin-bottom:30px;}
+.top-five-list ol {color:#f7a305;margin-top:1em;}
+.top-five-list ol span {color:#124d5b;}
+
+.reasons {}
+.reasons h2 {text-align:center;margin-top:60px;}
+.reasons img {margin-top:24px;}
+.reasons h3 {}
+.reasons p {font-family:'latosemibold', sans-serif;}
+.reasons p b {color:#f7a305;font-weight:inherit;}
+.reasons .call-back {margin:10px 0 40px 0;}
+
+.dreams {background-color:#f5f5f5;color:#124d5b;padding-bottom:30px;padding-top:30px;}
+.dreams h2 {margin-top:0;}
+.dreams p {font-size:20px;}
+.dreams ul {color:#f7a305;}
+.dreams li {margin-top:10px;margin-bottom:10px;font-size:24px;line-height:26px;}
+.dreams li span {color:#124d5b;font-size:20px;}
+.dreams .container {position:relative;}
+.dreams .container:after {display:block;content:'';position:absolute;left:15%;margin-left:-35px;bottom:-50px;width:70px;height:20px;background-image:url(../images/slight-arrow.png);background-size:100% 100%;}
+
+.call-to-action {background-color: #133e47;color: #fff;margin-bottom: 0;text-align:center;padding-top:10px;padding-bottom:10px;}
+.call-to-action h2 {color:#fff;margin-bottom:30px;}
+
+.testimonials {background-color:#204852;color:#fff;margin-bottom:0;}
+.testimonials  h2 {color:#fff;margin-top:60px;margin-bottom:0px;}
+.testimonials blockquote {background-color:#6b7b83;padding:55px 20px 55px 20px;margin:0;font-size:18px;border-left:none;text-align:center;margin-top:25px;margin-bottom:170px;border-radius:5px;position:relative;line-height: 1.2;}
+.testimonials blockquote:before, .testimonials blockquote:after {position:absolute;font-size:80px;color:#45555c;width:39px;height:26px;overflow:hidden;text-indent:50px;}
+.testimonials blockquote:before {left:20px;top:20px;content:open-quote;background-image:url(../images/open-quote.png);}
+.testimonials blockquote:after {right:20px;bottom:20px;content:close-quote;background-image:url(../images/close-quote.png);}
+.testimonials blockquote p {min-height: 120px;}
+.testimonials blockquote strong {display: block;margin: 0.5em auto 0 auto;background-position: 50% 0%;background-repeat: no-repeat;padding-top: 135px;position: absolute;top: 185px;width: 100%;left: 0;}
+.testimonials .testimonial-1 strong {background-image:url(../images/testimonial-1.png);}
+.testimonials .testimonial-2 strong {background-image:url(../images/testimonial-2.png);}
+.testimonials .testimonial-3 strong {background-image:url(../images/testimonial-3.png);}
+
+
+
+.mark-bouris {background-color: #f5f5f5;color: #124d5b;}
+.mark-bouris-quote {padding-top: 30px; padding-bottom:30px;}
+.mark-bouris-quote .start-quote:before, .mark-bouris-quote .end-quote:after {display:block;content:"";width:39px;height:26px;overflow:hidden;text-indent:50px;}
+.mark-bouris-quote .start-quote:before {content:open-quote;background-image:url(../images/open-quote.png);margin-bottom:10px;}
+.mark-bouris-quote .end-quote:after {content:close-quote;background-image:url(../images/close-quote.png);float:right;margin-top:10px;}
+.mark-bouris-photo {text-align:right;}
+.mark-bouris-photo img {width:100%;max-width:350px;}
+
+
+
+@media (max-width: 992px) {
+    .mark-bouris-photo {padding-top:30px;}
+    .mark-bouris-quote {padding-top: 50px;}
+    .mark-bouris-quote p {margin-bottom: 30px; font-size: 20px;}
+    .main-section{
+        width: 100%;
+        min-height: auto;
+    }
+    .sign-up{
+        width: 100%;
+        min-height: auto;
+        padding-bottom: 30px;
+    }
+
+    .loan_compare img{
+        width: auto;
+    }
+    .main-section h2{
+        text-align: center;
+    }
+    .interest-rate-bg-image{
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .offersection{
+        margin-bottom: 45px;
+        text-align: center;
+    }
+}
+
+@media (max-width: -width: 768px) {
+    .mark-bouris-photo {padding-top:30px;}
+    .mark-bouris-quote {padding-top: 40px;}
+    .mark-bouris-quote p {margin-bottom: 20px; font-size: 18px;}
+}
+
+@media (max-width: 767px) {
+    .mark-bouris-photo {text-align:center;}
+}
+
+
+.contactform {background-color: #143e48;color: #fff !important;}
+.contactform h2, .contactform p {color: #fff !important;text-align: center;}
+.contactform .has-error .help-block, .sign-up .has-error .help-block {color: #f7a305 !important;}
+.contactform a {color: #fff;}
+.contactform .smaller {padding-top:20px;font-size:14px;}
+
+.disclaimers {font-size:14px;padding-top:10px;padding-bottom:20px;}
+.disclaimers p {margin-bottom:10px;}
+
+.btn {transition:all 0.3s ease;font-family: 'latosemibold', sans-serif;}
+.btn.disabled {opacity:1;}
+.btn-ybr-yellow {color: #143e48; background-color: #F7A305; border-color: #F7A305;}
+.btn-ybr-yellow:hover {background-color: #143e48; border-color: #143e48; color:#fff;}
+.btn-ybr-yellow-to-white {color: #143e48; background-color: #F7A305; border-color: #F7A305;}
+.btn-ybr-yellow-to-white:hover {background-color: #fff; border-color: #fff;}
+.btn-ybr-white {color: #143e48; background-color: #fff; border-color: #fff;}
+.btn-ybr-white:hover {background-color: #f7a305; border-color: #f7a305;}
+.btn-ybr-lg {padding: 8px 32px; font-size: 20px; line-height: 1.3333333; border-radius: 5px; position:relative;}
+.btn-ybr-lg span {position:absolute; right:15px; top:1px; font-size:28px;}
+.btn-ybr-yellow:hover span {color: #f7a305;}
+.btn-ybr-white:hover span {color: #fff;}
+.time_to_switch{
+    /*background: #ee591f;*/
+    color: #000;
+    padding: 60px 0;
+}
+.time_to_switch h3{
+    color: #83171B;
+    font-size: 28px;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 20px !important;
+}
+p.time_to_switch_p{
+    margin: 0;
+    font-size: 15px;
+}
+
+footer {padding-top:25px;padding-bottom:25px;background: #f7a305;}
+footer p {color:#663700;font-size:12px;line-height:1.2;margin-bottom:0;}
+
+.loan_compare .loan_compare_text:nth-child(n+1){
+    background: #ee591f;color: #fff;
+}
+
+
+
+.interest-rate {
+    margin-top: 50px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.interest-rate-bg-image {
+    background: url(../images/comparsan-rate.png);
+    width: 400px;
+    height: 134px;
+    margin-left: -11px;
+}
+.interest-rate-bg-image .one {
+    color: #fff;
+    float: left;
+    width: 100px;
+    height: 110px;
+    line-height: 128px;
+    margin-right: 15px;
+    font-size: 110px;
+    text-align: center;
+    margin-left: 10px;
+}
+.interest-rate-bg-image .one.two {
+    margin-left: -12px;
+}
