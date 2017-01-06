@@ -30,7 +30,167 @@ h3 {font-size:22px;color:#124d5b;font-family: 'Roboto', sans-serif;font-weight: 
 p {margin-bottom:30px;}
 strong, b {font-family: 'latosemibold', sans-serif;}
 
-.header { border-bottom: 3px solid #ee591f;}
+.header { border-bottom: 3px solid #ee591f; height:160px;}
+.logo{margin-top: 35px;}
+.tagline {
+    margin-top: 89px;
+    margin-bottom: 0;
+    text-align: right;
+    font-size: 23px;
+    color: #83171B;
+    line-height: 30px;
+}
+
+.sidebar-widget {
+    margin-bottom: 30px;
+    margin-top: 0;
+    overflow: hidden;
+    padding: 30px 20px 30px 20px;
+    background: #e0e7cd;
+}
+.sidebar-widget:last-child {
+    margin-bottom: 0px;
+}
+.sidebar-section-right.sidebar-consulation .sidebar-widget {
+    background: #e0e7cd;
+    padding: 0;
+}
+.sidebar-widget-title {
+     margin-bottom: 10px; 
+    margin-bottom: 22px;
+}
+.sidebar-widget-title h3, .sidebar-widget-title h3 a {
+    color: rgba(150,37,35,1) !important;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.sidebar-widget-title h3, .sidebar-widget-title h3 a {
+    color: #242526;
+    letter-spacing: 0.5px;
+    margin: 0 0 0px;
+    padding-bottom: 0px;
+    word-wrap: break-word;
+    text-align: center;
+}
+.sidebar-section-right.sidebar-consulation .sidebar-widget .sidebar-widget-title h3 {
+    color: #fff !important;
+    background-image: url(../images/title.jpg);
+    border: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 200;
+    font-size: 24px !important;
+    height: 150px;
+    line-height: 3rem !important;
+    margin: 0;
+    padding: 1rem 0 0;
+    text-align: center;
+    text-shadow: 1px 1px 0 #569726;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+        padding-top: 35px;
+}
+.sidebar-section-right .textwidget {
+    text-align: center;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.sidebar-section-right.sidebar-consulation .sidebar-widget .textwidget {
+    color: rgba(150,37,35,1);
+    padding: 0px 20px 0px 20px;
+    text-shadow: #F0F3E6 1px 1px;
+    font-size: 19px;
+    text-align: center;
+    line-height: 23px;
+}
+
+.news_update_check{
+    float:left;width:10%;
+}
+.news_update_check_label{
+    float: left;
+    width: 90%;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 30px;
+}
+
+div.wpcf7 {
+    margin: 0;
+    padding: 0;
+}
+div.wpcf7 .screen-reader-response {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    width: 1px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.wpcf7 p {
+    color: #727272;
+    margin-top: 10px;
+}
+.sidebar-section-right.sidebar-consulation .sidebar-widget .wpcf7 p, .sidebar-section-right.sidebar-consulation .sidebar-widget .wpcf7-text {
+    color: #000;
+    text-align: left;
+    font-weight: 700;
+}
+.wpcf7-form-control-wrap {
+    position: relative;
+}
+.wpcf7-form-control-wrap {
+    position: relative;
+    display: block;
+    padding: 5px 0 0;
+}
+.wpcf7-text, .wpcf7-file, .wpcf7-number, .wpcf7-date, .wpcf7-select, .wpcf7-quiz {
+    color: #8f969c;
+    background-color: transparent;
+    border: 1px solid rgba(150,37,35,.2);
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    height: 46px;
+    padding: 6px 12px;
+    font-size: 15px;
+    line-height: 20px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+}
+.sidebar-section-right.sidebar-consulation .sidebar-widget .wpcf7-text {
+    background: rgba(255,255,255,.5);
+}
+.sidebar-section-right.sidebar-consulation .sidebar-widget .wpcf7 p, .sidebar-section-right.sidebar-consulation .sidebar-widget .wpcf7-text {
+    color: #000;
+    text-align: left;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Open Sans';
+}
+.sidebar-section-right.sidebar-consulation .sidebar-widget input[type="submit"] {
+    background: rgba(150,37,35,1);
+}
+.post-password-form input[type="submit"], input[type="submit"] {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 3px;
+    letter-spacing: 0.5px;
+    margin: 0px 0 3px;
+    padding: 12px 34px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.4s ease 0s;
+    border: none;
+}
 
 .confirmation {background-color:#143e48;margin-top:-20px;margin-bottom:20px;}
 .confirmation h2 {color:#fff;margin-bottom:20px;}
@@ -39,7 +199,7 @@ strong, b {font-family: 'latosemibold', sans-serif;}
 .intro img {margin-top:0;margin-bottom:20px;}
 .intro .call-back {margin:2em 0;}
 
-.banner{background:url('../images/014.jpg') no-repeat;background-size: cover;}
+.banner{background: #f2f2f2;}
 
 .sign-up {background-color:#83171B; color:#fff;font-size:15px; min-height:586px;padding: 30px;}
 .sign-up h3 {font-size:16px;line-height:30px;color:#fff;padding-top:10px;margin-top:0;}
@@ -89,10 +249,14 @@ strong, b {font-family: 'latosemibold', sans-serif;}
 }
 .loan_compare{
     width: 100%;float: left;    margin-top: 20px;text-align: center;
+    outline: 1px solid rgba(238, 89, 31,0.2);
+    outline-offset: -1px;
+    padding-top: 20px;
 }
 .loan_compare img{
     width: 40%;
 }
+
 .loan_compare .loan_compare_text{
         background: rgba(20, 62, 72, .2);
     padding: 10px 5px;
@@ -374,22 +538,34 @@ footer p {color:#663700;font-size:12px;line-height:1.2;margin-bottom:0;}
     margin-bottom: 30px;
 }
 .interest-rate-bg-image {
-    background: url(../images/comparsan-rate.png);
+    /*background: url(../images/comparsan-rate.png);*/
     width: 400px;
     height: 134px;
     margin-left: -11px;
 }
 .interest-rate-bg-image .one {
-    color: #fff;
+    color: #666;
     float: left;
-    width: 100px;
+    /*width: 100px;*/
     height: 110px;
     line-height: 128px;
     margin-right: 15px;
-    font-size: 110px;
+    font-size: 115px;
     text-align: center;
     margin-left: 10px;
+    font-weight: bold;
 }
 .interest-rate-bg-image .one.two {
     margin-left: -12px;
+}
+.pa {
+    float: left;
+    text-align: left;
+    margin-top: 28px;
+}
+.pa span {
+    font-size: 45px;
+    float: left;
+    line-height: 28px;
+    text-align: left;
 }

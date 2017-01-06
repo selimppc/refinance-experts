@@ -3,6 +3,7 @@
 	<head>
 		<title>Refinance Experts</title>
 
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/custom.css">
@@ -11,11 +12,14 @@
 		<header class="header">
 			<div class="container-fluid	">
 				<div class="row">
-					<!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<a href="#"> -->
-							<img class='img-responsive' src="images/header-158-x-1600.jpg" >
-						<!-- </a>
-					</div> -->
+					
+					<div class="col-md-5">
+						<a href=""><img src="images/logo.png" width="350" class="logo"></a>
+					</div>
+					<div class="col-md-7">
+						<p class="tagline">Build financial security and independence for your family<br/>02 9199 8595</p>
+					</div>
+
 				</div>
 			</div>
 		</header>
@@ -29,9 +33,8 @@
 							
 							<div class="interest-rate-bg-image">
 
-								<div class="one ">3</div>
-								<div class="one ">9</div>
-								<div class="one two">2</div>
+								<div class="one ">3.92</div>
+								<div class="pa"><span>%</span><br/>p.a.</div>
 														
 							</div>
 
@@ -59,8 +62,57 @@
 						</div>
 					</div>
 
-					<div class="col-sm-4 sign-up">
-						<h3><em>SIGN UP</em> FOR A <strong>FREE CONSULTATION<sup>**</sup></strong></h3>
+					<div class="col-sm-4 sign-ups">
+						<div class="sidebar-section-right sidebar-consulation">
+							<div class="sidebar-widget">
+							    <div class="sidebar-widget-title">
+							        <h3>SIGN UP FOR A FREE CONSULTATION**</h3>
+							    </div>
+							    <div class="textwidget">
+							        If your home loan rate doesn't start with a three, then it's time to find a better deal.
+
+							        <div role="form" class="wpcf7" id="wpcf7-f123-o1" lang="en-AU" dir="ltr">
+							            <div class="screen-reader-response"></div>
+							            <form action="/blog/#wpcf7-f123-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+							                <div style="display: none;">
+							                    <input type="hidden" name="_wpcf7" value="123">
+							                    <input type="hidden" name="_wpcf7_version" value="4.6">
+							                    <input type="hidden" name="_wpcf7_locale" value="en_AU">
+							                    <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f123-o1">
+							                    <input type="hidden" name="_wpnonce" value="8157f0c24b">
+							                </div>
+							                <p>
+							                    <span class="wpcf7-form-control-wrap text-919">
+							                    	<input type="text" name="first_name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="First Name">
+							                    </span>
+							                    <span class="wpcf7-form-control-wrap text-919">
+							                    	<input type="text" name="last_name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Last Name">
+							                    </span>
+							                    <span class="wpcf7-form-control-wrap email-504">
+							                    	<input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" placeholder="Email">
+							                    </span>
+							                    <span class="wpcf7-form-control-wrap tel-720">
+							                    	<input type="tel" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" placeholder="Phone">
+							                    </span>
+							                    <span class="wpcf7-form-control-wrap tel-720">
+							                    	<input type="tel" name="post" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" placeholder="Post code">
+							                    </span>
+							                    <span class="wpcf7-form-control-wrap tel-720">
+							                    	<input class="news_update_check" type="checkbox">							
+													<label class="news_update_check_label">I would like to receive news and updates from Yellow Bricks Road.</label>
+							                    </span>
+							                </p>
+							                <p>
+							                    <input type="submit" value="LET'S TALK" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span>
+							                </p>
+							                <div class="wpcf7-response-output wpcf7-display-none"></div>
+							            </form>
+							        </div>
+							    </div>
+							</div>
+
+						</div>
+						<!-- <h3><em>SIGN UP</em> FOR A <strong>FREE CONSULTATION<sup>**</sup></strong></h3>
 						<p>If your home loan rate doesn't start with a three, then it's
 						time to find a better deal.</p>
 						<div class="form-group">
@@ -89,7 +141,7 @@
 						</div>
 						<div class="form-group">
 							<input style="background: #ee591f;border: 1px solid #ee591f;color: #fff;font-size: 17px;height: auto;margin-top: 5px;float: left;" class="form-control" type="submit" name="" value="Let's talk">							
-						</div>
+						</div> -->
 					</div>
 
 				</div>
