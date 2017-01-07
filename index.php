@@ -33,7 +33,10 @@
 							
 							<div class="interest-rate-bg-image">
 
-								<div class="one ">3.92</div>
+								<div class="one ">3</div>
+								<div class="one dot">.</div>
+								<div class="one ">9</div>
+								<div class="one ">2</div>
 								<div class="pa"><span>%</span><br/>p.a.</div>
 														
 							</div>
